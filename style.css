@@ -1,0 +1,57 @@
+main {
+  font-family: sans-serif;
+  display: block;
+
+}
+h1 {
+  font-size: 30px;
+}
+form {
+  width: 960px;
+
+
+}
+label {
+  padding: 10px 0px;
+  display:block;
+  width: 100%
+}
+#first-box, #second-box {
+  width: 85%;
+}
+label p{
+  float: right;
+  padding-right: 138px;
+}
+#drop-down {
+  clear: both;
+}
+select#select-box{
+
+  width: 85%;
+}
+/*#checkbox div{
+  background: url("form-elements-sprite.png") no-repeat;
+  height: 160px;
+}
+#checkbox input {
+
+  background-position: 158 -239px;
+  width: 160px;
+  height: 160px;
+  display: block;
+  float: left;
+}*/
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox] + label.check{
+display:inline-block;
+
+width: 160px;
+height: 160px;
+background-image: url("form-elements-sprite.png");
+background-repeat: no-repeat;
+background-position: 158px 240px;
+
+}
